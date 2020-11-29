@@ -10,5 +10,5 @@ Bibliotecas añadidas:
 Pasos:
 1) Descargar codigo de github
 2) Abrir en entorno de desarrollo, una terminal y ejecutar en npm i para obtener dependencias
-3) Añadir fichero firebase.js al mismo nivel que App.js e Index.js que se adjunto en el correo para poder realizar conexiones con firebase ya que este contiene los datos de conexión
+3) Añadir un fichero firebase.js al mismo nivel que App.js e Index.js y pegar el contenido del firebase.txt (lo pase a un txt porque .js piensa que es un potencial virus el gmail) que se adjunto en el correo para poder realizar conexiones con firebase ya que este contiene los datos de conexión
 4) npm start  y FIN
