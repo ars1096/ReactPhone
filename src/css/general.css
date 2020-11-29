@@ -1,0 +1,23 @@
+.navs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 250px;
+  background-color: black;
+  color: white;
+}
+
+.nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
