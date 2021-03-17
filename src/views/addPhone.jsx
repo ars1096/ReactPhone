@@ -1,16 +1,13 @@
 import React from "react";
 import Addforms from "../components/addForms";
-import {db} from '../firebase';
-
+import { db } from "../firebase";
+//PUTISIMO TESTING
 const AddPhone = () => {
+  const addOrEditPhone = async (phoneObj) => {
+    await db.collection("phone").doc().set(phoneObj);
+  };
 
-  const addOrEditPhone =  async ( phoneObj) => {
-    await db.collection('phone').doc().set(phoneObj);
-
-  }
-
-    return <Addforms addOrEditPhone={addOrEditPhone}/>;
-  
-}
+  return <Addforms addOrEditPhone={addOrEditPhone} />;
+};
 
 export default AddPhone;
